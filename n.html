@@ -1,0 +1,87 @@
+<meta charset="utf-8" />
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<div class="question1" style="background-color: red; width: 400px; height: 900px; margin-left: 250px;">
+	<h1>Какая моя любимая игра</h1>
+	<div class="answer1" style="background-color: green; height: 230px;">
+		<img src="5.jpg" style=" width: 400px; height: 200px;">
+	</div>
+	<div class="answer2" style="background-color: yellow; height: 430px;">
+		<img src="6.png" style="width: 400px; height: 400px;">
+	</div>
+	<div class="answer3" style="background-color: orange; height: 230px;">
+		<img src="7.png" style="width: 400px; height: 200px;">
+	</div>
+</div>
+<div class="question2" style="background-color: blue; width: 400px; height: 700px; margin-left: 250px; display: none;">		
+	<h1>Какое мое любимое аниме</h1>
+	<div class="answer1" style="height: 230px;">
+		<img src="orig.jfif" style="width: 400px; height: 200px;">
+	</div>
+	<div class="answer2" style="height: 230px;">
+		<img src="0.jpg" style="width: 400px; height: 200px;">
+	</div>
+	<div class="answer3" style="height: 230px;">
+		<img src="0.jfif" style="width: 400px; height: 250px;">
+	</div>
+</div>
+
+<div class="question3" style="background-color: green; width: 400px; height: 750px; margin-left: 250px; display: none;">
+	<h1>Какое мое самое любомое видео</h1>
+	<div class="answer1" style="background-color: blue; height: 230px;">
+		<iframe width="400" height="200" src="https://www.youtube.com/embed/Rj2WnZdIJXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div class="answer2" style="background-color: yellow; height: 230px;">
+		<iframe width="400" height="200" src="https://www.youtube.com/embed/K99UzckP8mw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+	<div class="answer3" style="background-color: orange; height: 230px;">
+		<iframe width="400" height="200" src="https://www.youtube.com/embed/Hmbw1aM5AlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</div>
+<div class="question4" style="background-color: orange; width: 400px; height: 750px; margin-left: 250px; display: none;">
+	<h1>Какой для меня лучший шутер?</h1>
+	<div class="answer1" style="background-color: red; height: 230px;">
+		<img src="8.jfif" style="width: 400px; height: 200px;">
+	</div>
+	<div class="answer2" style="background-color: blue; height: 230px;">
+		<img src="1.jfif" style="width: 400px; height: 200px;">
+	</div>
+	<div class="answer3" style="background-color: orange; height: 230px;">
+		<img src="h.jpg" style="width: 400px; height: 200px;">
+	</div>
+</div>
+<div class="question5" style="background-color: red; width: 400px; height: 510px; margin-left: 250px; display: none;">
+	<h1>Какая песочница для меня лучшая?</h1>
+	<div class="answer1" style="background-color: green; height: 230px;">
+		<img src="w.jpg" style="width: 400px; height: 200px;">
+	</div>
+<div class="answer2" style="background-color: green; height: 230px;">
+		<img src="g.jpg" style="width: 400px; height: 200px;">
+	</div>
+</div>
+<div class="question6" style="background-color: aqua; width: 400px; height: ; margin-left: 250px;">
+	<h1></h1>
+	<div class="answer1" style="background-color: orange; height: 230px;">
+		
+	</div>
+	<div class="answer1" style="background-color: orange; height: 230px;">
+		
+	</div>
+	<div class="answer1" style="background-color: orange; height: 230px;">
+		
+	</div>
+</div>
+<script>
+	find('question1 answer1').click('alert','думай')
+	find('question1 answer2').click('alert','думай')
+	find('question1 answer3').click('show', 'question2', 'угадал')
+	find('question2 answer1').click('show', 'question3', 'угадал')
+	find('question2 answer2').click('alert','думай')
+	find('question2 answer3').click('alert','думай')
+	find('question3 answer1').click('show', 'question4', 'угадал')
+	find('question3 answer2').click('alert','думай')
+	find('question3 answer3').click('alert','думай')
+	find('question4 answer1').click('alert','думай')
+	find('question4 answer2').click('show', 'question5', 'угадал')
+	find('question4 answer3').click('alert','думай')
+	find('question5 answer1').click('alert','думай')
+	find('question5 answer2').click('show', 'question6', 'угадал')	
+</script>
